@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-with-html-tailwindcss-and-vite-4OGM4pk2qJ](https://www.frontendmentor.io/solutions/nft-preview-card-component-with-html-tailwindcss-and-vite-4OGM4pk2qJ)
 -   Live Site URL: [https://nft-preview-card-component-ndc.netlify.app/](https://nft-preview-card-component-ndc.netlify.app/)
 
 ## My process
