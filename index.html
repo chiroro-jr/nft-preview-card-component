@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+</head>
+
+<body class="font-outfit">
+
+  <main class="min-h-screen grid place-content-center p-6 bg-dark-blue-main">
+    <div class="max-w-xs p-5 pb-6 bg-dark-blue-card rounded-2xl space-y-4 shadow-2xl shadow-cyan/5">
+      <div class="rounded-xl overflow-hidden relative">
+        <img src="./images/image-equilibrium.jpg" alt="">
+        <div
+          class="absolute inset-0 grid place-content-center bg-cyan/50 opacity-0 hover:opacity-100 transition-all duration-300 hover:cursor-pointer">
+          <img src="./images/icon-view.svg" class="w-10 h-10" alt="">
+        </div>
+      </div>
+      <h1 class="text-white font-semibold text-xl hover:text-cyan transition-all duration-300 hover:cursor-pointer">
+        Equilibrium #3429</h1>
+      <p class="text-soft-blue font-light">Our Equilibrium collection promotes balance and calm</p>
+      <div class="flex justify-between">
+        <span class="flex items-center gap-2 text-cyan">
+          <img src="./images/icon-ethereum.svg" alt="">
+          <span class="text-sm whitespace-nowrap">0.041 ETH</span>
+        </span>
+        <span class="flex gap-2 items-center">
+          <img src="./images/icon-clock.svg" alt="">
+          <span class="text-sm whitespace-nowrap text-soft-blue font-light">3 days left</span>
+        </span>
+      </div>
+      <div class="h-[1px] bg-dark-blue-line"></div>
+      <div class="flex items-center gap-3">
+        <img src="./images/image-avatar.png" class="w-8 h-8 rounded-full border-white border-2" alt="">
+        <span class="text-soft-blue font-light">Creation of <span
+            class="text-white hover:text-cyan hover:cursor-pointer duration-300 transition-all">Jules
+            Wyvern</span></span>
+      </div>
+    </div>
+  </main>
+
+  <div class="fixed bottom-0 left-0 right-0 py-2 text-center text-sm text-dark-blue-line">
+    Challenge by <a class="text-cyan/90 hover:underline duration-200 transition-all hover:cursor-pointer"
+      href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+      Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/chiroro-jr"
+      class="text-cyan/90 hover:underline duration-200 transition-all hover:cursor-pointer">Nyasha D.
+      Chiroro</a>.
+  </div>
+</body>
+
+</html>
